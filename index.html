@@ -1,35 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=tab, initial-scale=1.0">
-    <title>Calculadora</title>
-    <link type="text/css" href="styles.css" rel="stylesheet" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Oscar Huamani - Inicio</title>
 </head>
 <body>
-    
-    <br>
-
-    <header>
-        <header>
+    <header class="hero">
+        <div class="hero-content">
             <h1>Bienvenido a mi sitio</h1>
             <p>¡Hola! Soy Oscar Huamani, ingeniero de software.</p>
-        </header>
-    
-        <section>
+        </div>
+    </header>
+
+    <section class="about">
+        <div class="container">
             <h2>Mis Datos</h2>
+            <div class="btn-container">
+                <button href="pagina2.html" class="btn" onclick="redirectToProjectsPage()">Mis Proyectos</button>
+                </div>
             <p>Nombre: Oscar Huamani</p>
-            <p>Correo Electrónico: oscar@example.com</p>
+            <p>Correo Electrónico: Oscar1234huamani@gmail.com</p>
+            
+            <p>Mira mi CV</p>
+            <iframe src="Oscar Huamani Ccollccani CV.pdf" width="100%" height="600px"></iframe>
             <!-- Agrega más información según tus necesidades -->
-        </section>
-    
-        <footer>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
             <p>&copy; 2023 Oscar Huamani. Todos los derechos reservados.</p>
-        </footer>
-
-
-    <script src="calcu.js"></script>
-    <script src="//code.tidio.co/atcgjcoarao8vo09ae8rbhsdwvlunxqe.js" async></script>
+        </div>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>

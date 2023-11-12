@@ -1,27 +1,66 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-header {
-    text-align: center;
-    padding: 20px;
+.hero {
     background-color: #333;
     color: #fff;
+    text-align: center;
+    padding: 80px 0;
 }
 
-section {
-    margin-top: 20px;
+.hero h1 {
+    font-size: 2.5em;
 }
 
-h1, h2 {
-    color: #f0efef;
+.hero p {
+    font-size: 1.2em;
+}
+
+.about {
+    background-color: #f4f4f4;
+    padding: 40px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h2 {
+    color: #333;
 }
 
 footer {
-    margin-top: 20px;
-    text-align: center;
-    padding: 10px;
     background-color: #333;
     color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Mobile Styles */
+@media screen and (max-width: 600px) {
+    .hero {
+        padding: 40px 0;
+    }
+
+    .container {
+        width: 90%;
+    }
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn-container {
+    float: right; /* Coloca el botón a la derecha */
+    
 }
